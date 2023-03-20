@@ -114,7 +114,7 @@ describe("main.fc contract tests", () => {
 }
 ```
 
-> We are doing this changes so you would get used to code that would be generated in case you run `npm create ton@latest`. We are deligating the compilation process to the Blueprint library.
+> We are doing this changes so you would get used to code that would be generated in case you run `npm create ton@latest`. We are delegating the compilation process to the Blueprint library.
 
 However, we will need to provide Blueprint with one more thing - **compiler config**. To do so, simply create a new file in **wrappers** folder and call it **MainContract.compile.ts**. Here is the contents of this file:
 ```
